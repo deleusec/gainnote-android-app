@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">GainNote</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="personal_data">Données Personnelles</string>
+    <string name="muscle_icon">💪🏼</string>
+    <string name="dynamic_weight">%s kg</string>
+    <string name="weight_word">poids </string>
+    <string name="your_weight">Votre poids : </string>
+    <string name="your_height">Votre taille :</string>
+    <string name="your_age">Votre âge : </string>
+    <string name="your_body_type">Votre corpulence : </string>
+    <string name="your_sexe">Votre sexe : </string>
+    <string name="your_daily_activity">Votre activité quotidienne : </string>
+    <string name="validate">Valider</string>
+    <string name="your_firstname">Votre prénom : </string>
+    <string name="your_name">Votre nom : </string>
+    <string name="user">utilisateur</string>
+    <string name="profile">Profil</string>
+    <string name="text">Texte</string>
+    <string name="man">Homme</string>
+    <string name="woman">Femme</string>
+
+    <string-array name="body_type_array">
+        <item>Mince</item>
+        <item>Normal</item>
+        <item>Surpoid</item>
+    </string-array>
+
+    <string-array name="sexe_array">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_user">Bienvenue %s</string>
+    <string name="save">Enregistrer</string>
+    <string name="my_profile">Mon profil</string>
+    <string name="delete_all">Supprimer mes données</string>
+    <string name="add">Ajouter</string>
+    <string name="prenom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="sexe">Sexe</string>
+    <string name="kg">kg</string>
+    <string name="height_word">Height</string>
+    <string name="cm">cm</string>
+    <string name="body_type">Corpulence</string>
+    <string name="hello_world">Hello World</string>
+    <string name="series">Séries</string>
+    <string name="Rep">Rep</string>
+    <string name="ser">Ser</string>
+    <string name="exercice_name">Nom de l\'exercice</string>
+    <string name="exercice">Exercice</string>
+    <string name="add_exercice">Ajouter</string>
+    <string name="date">Date</string>
+    <string name="exercices">Exercices</string>
+    <string name="all_sessions">Tous les entraînements</string>
+    <string name="delete_all_sessions">Supprimer mes sessions</string>
+    <string name="training">Entraînement du :</string>
+    <string name="set_new_weight">Enregistrer le poids</string>
+</resources>

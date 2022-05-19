@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.SettingsActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_profile"
+            android:textSize="20sp"
+            android:layout_marginVertical="25dp"
+            android:layout_marginHorizontal="25dp"
+            android:textColor="@color/black"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/settings_delete_sessions"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textSize="12sp"
+            android:layout_marginBottom="25dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_all_sessions"
+            android:textColor="@color/white"
+            android:background="@color/red"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/settings_delete"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textSize="12sp"
+            android:layout_marginBottom="25dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_all"
+            android:textColor="@color/white"
+            android:background="@color/red"
+
+            />
+
+    </LinearLayout>
+
+
+</layout>
